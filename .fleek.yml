@@ -2,7 +2,6 @@ aliases:
     fleeks: cd ~/.local/share/fleek
     latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
     update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
-    use-fnm: eval $(fnm env)
     k: kubectl
 allow_broken: false
 auto_gc: true
@@ -46,4 +45,3 @@ systems:
       username: j12r
 track: nixos-unstable
 unfree: true
-users: []
