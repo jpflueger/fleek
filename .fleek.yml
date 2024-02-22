@@ -1,8 +1,8 @@
 aliases:
     fleeks: cd ~/.local/share/fleek
+    k: kubectl
     latest-fleek-version: nix run https://getfleek.dev/latest.tar.gz -- version
     update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
-    k: kubectl
 allow_broken: false
 auto_gc: true
 bling: default
@@ -25,6 +25,7 @@ packages:
     - tree
     - k3d
     - kubernetes-helm
+    - yaml-language-server
 paths:
     - $HOME/bin
     - $HOME/.local/bin
@@ -45,3 +46,4 @@ systems:
       username: j12r
 track: nixos-unstable
 unfree: true
+users: []
