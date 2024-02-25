@@ -27,6 +27,7 @@
     pkgs.k3d
     pkgs.kubernetes-helm
     pkgs.yaml-language-server
+    pkgs.lima
     # Fleek Bling
     pkgs.git
     pkgs.htop
