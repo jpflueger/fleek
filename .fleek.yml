@@ -19,21 +19,20 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    # shell
     - tree
     - github-cli
-    # languages
     - yaml-language-server
     - rustup
     - fnm
-    # containers
     - lima
     - k3d
     - kubernetes-helm
-    # build
     - just
+    - dotnet-sdk_8
+paths:
+    - $HOME/bin
+    - $HOME/.local/bin
 programs:
-    # shell
     - dircolors
     - direnv
     - fzf
@@ -41,17 +40,8 @@ programs:
     - htop
     - ripgrep
     - starship
-    # editors
     - helix
     - vscode
-    ## managed packages
-    # somewhere in this folder
-    ## programs.home-manager
-    ## programs.zsh
-    ## programs.git
-paths:
-    - $HOME/bin
-    - $HOME/.local/bin
 shell: zsh
 systems:
     - arch: aarch64

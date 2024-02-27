@@ -29,6 +29,7 @@
     pkgs.k3d
     pkgs.kubernetes-helm
     pkgs.just
+    pkgs.dotnet-sdk_8
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
