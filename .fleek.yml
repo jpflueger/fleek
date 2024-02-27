@@ -38,8 +38,6 @@ packages:
     - vscode
     - just
     ## managed packages
-    - direnv
-    - starship
     # somewhere in this folder
     ## programs.home-manager
     ## programs.direnv
@@ -47,11 +45,13 @@ packages:
     ## programs.dircolors
     ## programs.zsh
     ## programs.git
+programs:
+    - dircolors
+    - direnv
+    - starship
 paths:
     - $HOME/bin
     - $HOME/.local/bin
-programs:
-    - dircolors
 shell: zsh
 systems:
     - arch: aarch64

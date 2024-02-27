@@ -7,6 +7,8 @@
   # Bling supplied programs
 
   # User specified programs 
-    programs.dircolors.enable = true;
+    programs.dircolors.enable = true; 
+    programs.direnv.enable = true; 
+    programs.starship.enable = true;
 
 }
