@@ -5,7 +5,7 @@ aliases:
     update-fleek: nix run https://getfleek.dev/latest.tar.gz -- update
 allow_broken: false
 auto_gc: true
-bling: default
+bling: none
 blocklist: []
 byo_git: false
 ejected: false
@@ -27,6 +27,26 @@ packages:
     - kubernetes-helm
     - yaml-language-server
     - lima
+    # included in bling
+    ## packages
+    - git
+    - htop
+    - github-cli
+    - glab
+    - fzf
+    - ripgrep
+    - vscode
+    - just
+    ## managed packages
+    - direnv
+    - starship
+    # somewhere in this folder
+    ## programs.home-manager
+    ## programs.direnv
+    ## programs.starship
+    ## programs.dircolors
+    ## programs.zsh
+    ## programs.git
 paths:
     - $HOME/bin
     - $HOME/.local/bin

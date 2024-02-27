@@ -28,7 +28,6 @@
     pkgs.kubernetes-helm
     pkgs.yaml-language-server
     pkgs.lima
-    # Fleek Bling
     pkgs.git
     pkgs.htop
     pkgs.github-cli
@@ -37,6 +36,10 @@
     pkgs.ripgrep
     pkgs.vscode
     pkgs.just
+    pkgs.direnv
+    pkgs.starship
+    # Fleek Bling
+    pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })
   ];
   fonts.fontconfig.enable = true; 
