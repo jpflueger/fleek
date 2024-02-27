@@ -29,6 +29,7 @@ packages:
     - kubernetes-helm
     - just
     - dotnet-sdk_8
+    - tinygo
 paths:
     - $HOME/bin
     - $HOME/.local/bin
