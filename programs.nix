@@ -9,6 +9,12 @@
   # User specified programs 
     programs.dircolors.enable = true; 
     programs.direnv.enable = true; 
-    programs.starship.enable = true;
+    programs.fzf.enable = true; 
+    programs.git.enable = true; 
+    programs.htop.enable = true; 
+    programs.ripgrep.enable = true; 
+    programs.starship.enable = true; 
+    programs.helix.enable = true; 
+    programs.vscode.enable = true;
 
 }

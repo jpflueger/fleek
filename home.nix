@@ -20,21 +20,14 @@
   # programs are installed and configuration applied to dotfiles
   home.packages = [
     # user selected packages
-    pkgs.helix
+    pkgs.tree
+    pkgs.github-cli
+    pkgs.yaml-language-server
     pkgs.rustup
     pkgs.fnm
-    pkgs.tree
+    pkgs.lima
     pkgs.k3d
     pkgs.kubernetes-helm
-    pkgs.yaml-language-server
-    pkgs.lima
-    pkgs.git
-    pkgs.htop
-    pkgs.github-cli
-    pkgs.glab
-    pkgs.fzf
-    pkgs.ripgrep
-    pkgs.vscode
     pkgs.just
     # Fleek Bling
     pkgs.git

@@ -19,36 +19,36 @@ min_version: 0.8.4
 name: Fleek Configuration
 overlays: {}
 packages:
-    - helix
+    # shell
+    - tree
+    - github-cli
+    # languages
+    - yaml-language-server
     - rustup
     - fnm
-    - tree
+    # containers
+    - lima
     - k3d
     - kubernetes-helm
-    - yaml-language-server
-    - lima
-    # included in bling
-    ## packages
+    # build
+    - just
+programs:
+    # shell
+    - dircolors
+    - direnv
+    - fzf
     - git
     - htop
-    - github-cli
-    - glab
-    - fzf
     - ripgrep
+    - starship
+    # editors
+    - helix
     - vscode
-    - just
     ## managed packages
     # somewhere in this folder
     ## programs.home-manager
-    ## programs.direnv
-    ## programs.starship
-    ## programs.dircolors
     ## programs.zsh
     ## programs.git
-programs:
-    - dircolors
-    - direnv
-    - starship
 paths:
     - $HOME/bin
     - $HOME/.local/bin
