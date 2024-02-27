@@ -31,6 +31,7 @@
     pkgs.just
     pkgs.dotnet-sdk_8
     pkgs.tinygo
+    pkgs.go
     # Fleek Bling
     pkgs.git
     (pkgs.nerdfonts.override { fonts = [ "FiraCode" ]; })

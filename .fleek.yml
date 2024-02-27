@@ -30,6 +30,7 @@ packages:
     - just
     - dotnet-sdk_8
     - tinygo
+    - go
 paths:
     - $HOME/bin
     - $HOME/.local/bin
